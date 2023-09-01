@@ -3,7 +3,7 @@
 
 
 <?php
-$conn = mysqli_connect("localhost","root","","fms_db");
+$conn = mysqli_connect("localhost","davsur_account","@DavsurAdmin2023","fms_db");
 $sql = "SELECT * FROM `chat` ORDER BY mem_id ASC";
 $result = mysqli_query($conn,$sql);
 ?>
